@@ -4,10 +4,42 @@
 	"description": "Beautiful, Zero Configuration, Toast Messages - Built with React",
 	"author": "Cogoport",
 	"license": "MIT",
-	"repository": "Cogoport/cogo-toast",
 	"main": "dist/index.js",
 	"module": "dist/index.es.js",
 	"jsnext:main": "dist/index.es.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Cogoport/cogo-toast.git"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"CHANGELOG.md",
+		"dist"
+	],
+	"keywords": [
+		"react",
+		"toast",
+		"react-toast",
+		"toast-react",
+		"toastr",
+		"toast messages",
+		"messages",
+		"notifications",
+		"react notifications",
+		"component",
+		"components",
+		"react component",
+		"react components",
+		"ui"
+	],
+	"contributors": [
+		"Anmol Mahatpurkar"
+	],
+	"bugs": {
+		"url": "https://github.com/Cogoport/cogo-toast/issues"
+	},
+	"homepage": "https://cogoport.github.io/cogo-toast/",
 	"engines": {
 		"node": ">=8",
 		"npm": ">=5"
@@ -23,7 +55,6 @@
 		"prettify": "prettier --config .prettierrc --write \"{src,app,app/pages,app/components}/**/*.js\""
 	},
 	"peerDependencies": {
-		"prop-types": "^15.5.4",
 		"react": "^15.0.0 || ^16.0.0",
 		"react-dom": "^15.0.0 || ^16.0.0"
 	},
@@ -53,8 +84,5 @@
 		"rollup-plugin-peer-deps-external": "^2.2.0",
 		"rollup-plugin-postcss": "^1.6.2",
 		"rollup-plugin-url": "^1.4.0"
-	},
-	"files": [
-		"dist"
-	]
+	}
 }
