@@ -1,12 +1,10 @@
 {
 	"name": "cogo-toast",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Beautiful, Zero Configuration, Toast Messages - Built with React",
 	"author": "Cogoport",
 	"license": "MIT",
-	"main": "dist/index.js",
-	"module": "dist/index.es.js",
-	"jsnext:main": "dist/index.es.js",
+	"main": "dist/index",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Cogoport/cogo-toast.git"
@@ -45,6 +43,7 @@
 		"npm": ">=5"
 	},
 	"scripts": {
+		"setup": "$npm_execpath install && cd app && $npm_execpath install",
 		"dev-npm": "rollup -c -w",
 		"dev-test": "cd app && $npm_execpath run dev",
 		"dev": "concurrently --kill-others-on-fail \"$npm_execpath run dev-npm\" \"$npm_execpath run dev-test\"",
