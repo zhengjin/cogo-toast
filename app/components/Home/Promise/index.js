@@ -21,8 +21,7 @@ const Types = () => (
 					Returns a promise which resolves when the toast is about to hide.
 				</Paragraph>
 				<Paragraph>
-					This can be useful to show another toast, or load another page based after the
-					toast has completed showing.
+					This can be useful to do some action when the toast has completed showing.
 				</Paragraph>
 			</Group>
 			<Group className="code">
@@ -39,8 +38,8 @@ const Types = () => (
 			</Group>
 			<Group>
 				<Paragraph>
-					When hideAfter = 0, It returns a callback function that
-					hides the toast, instead of a promise.
+					When hideAfter = 0, It returns a callback function that hides the toast, instead
+					of a promise.
 				</Paragraph>
 			</Group>
 		</Section>

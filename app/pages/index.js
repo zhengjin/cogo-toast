@@ -1,3 +1,5 @@
+import styled from 'styled-components';
+
 import Banner from '../components/Home/Banner';
 import Types from '../components/Home/Types';
 import PlugPlay from '../components/Home/PlugPlay';
@@ -14,10 +16,36 @@ const Home = () => (
 		<PlugPlay />
 		<Positions />
 		<Promise />
-		<AllOptions />
+		{/* <AllOptions /> */}
 		<Gzipped />
 		<MadeWithLove />
+
+		<StarContainer>
+			<a
+				className="github-button"
+				href="https://github.com/Cogoport/cogo-toast"
+				data-size="large"
+				data-show-count="true"
+				aria-label="Star Cogoport/cogo-toast on GitHub">
+				Github
+			</a>
+		</StarContainer>
 	</>
 );
+
+const StarContainer = styled.div`
+	position: fixed;
+	top: 20px;
+	right: 20px;
+
+	a {
+		color: #404040;
+		text-decoration: none;
+		border: 1px solid #404040;
+		border-radius: 4px;
+		font-size: 13px;
+		padding: 8px 12px;
+	}
+`;
 
 export default Home;
