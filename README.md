@@ -1,6 +1,7 @@
 # Cogo Toast
 
-**Beautiful,** Zero-Configuration, **Toast Messages** 
+**Beautiful,** Zero-Configuration, **Toast Messages**
+
 - **Plug & Play.** No configuration required
 
 - Only ~ **3.5K Gzipped** (Including Icons, Styles, & Code)
@@ -11,12 +12,14 @@
 
 ## Get Started
 
-Install via NPM: 
+Install via NPM:
+
 ```
 npm install --save cogo-toast
 ```
 
-Install via Yarn: 
+Install via Yarn:
+
 ```
 yarn add cogo-toast
 ```
@@ -53,7 +56,7 @@ Returns a promise which resolves when the toast is about to hide.
 
 This can be useful to do some action when the toast has completed showing.
 
-```javascript 
+```javascript
 cogoToast.loading("Loading your data...").then(()=>{
   cogoToast.success("Data Successfully Loaded");
 });
@@ -84,17 +87,19 @@ Here's a list of all the available options, to customize the toast to your needs
 
 ### Only ~ 3.5K Gzipped
 
-The package contains one single minified build file, and its all inclusive! The SVG Icons and the Styles are packed along built into the Code. 
+The package contains one single minified build file, and its all inclusive! 
 
-## License
+The SVG Icons and the Styles are packed along built into the Code. 
+
+### License
 
 ```MIT```
 
-## Built With
+### Built With
 
--   [React](https://reactjs.org/)
+- [React](https://reactjs.org/)
 
-## Author 
+### Author
 
 - Anmol Mahatpurkar, Cogoport
 
