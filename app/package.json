@@ -5,9 +5,12 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start",
 		"analyze": "ANALYZE=1 next build",
-		"analyze-log": "ANALYZE_LOG=1 next build && cat .next/stats.txt"
+		"analyze-log": "ANALYZE_LOG=1 next build && cat .next/stats.txt",
+		"preexport": "npm run build",
+		"export": "next export",
+		"prestart": "$npm_execpath run export",
+		"start": "serve out"
 	},
 	"dependencies": {
 		"next": "7.0.1",
@@ -16,7 +19,8 @@
 		"react-dom": "16.5.2",
 		"styled-components": "3.4.9",
 		"styled-normalize": "^8.0.1",
-		"cogo-toast": "link:.."
+		"cogo-toast": "link:..",
+		"serve": "10.0.2"
 	},
 	"devDependencies": {
 		"babel-eslint": "10.0.1",
