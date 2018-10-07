@@ -27,7 +27,7 @@ const Home = () => (
 				data-size="large"
 				data-show-count="true"
 				aria-label="Star Cogoport/cogo-toast on GitHub">
-				Github
+				Star on Github
 			</a>
 		</StarContainer>
 	</>
