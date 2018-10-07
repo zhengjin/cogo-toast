@@ -18,7 +18,7 @@ const Types = () => (
 				<H4>Usage</H4>
 				<CodeBlock>
 					<div>import cogoToast from 'cogo-toast';</div>
-					<div>cogoToast.success("Hello");</div>
+					<div>cogoToast.success("Success!");</div>
 				</CodeBlock>
 			</Group>
 		</Section>

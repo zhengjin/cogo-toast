@@ -6,7 +6,7 @@ const Types = () => (
 	<CodePanel heading="Only ~ 3.5K Gzipped">
 		<Section>
 			<Paragraph>The package contains one single minified build file.</Paragraph>
-			<Paragraph>All Inclusive of SVG Icons, Styles &amp; the Code.</Paragraph>
+			<Paragraph>The SVG Icons and the Styles are built into the Code.</Paragraph>
 			<Paragraph>Sourcemaps are also packed along.</Paragraph>
 		</Section>
 	</CodePanel>

@@ -25,7 +25,7 @@ const Types = () => (
 					toast has completed showing.
 				</Paragraph>
 			</Group>
-			<Group>
+			<Group className="code">
 				<CodeBlock>
 					<div>{`cogoToast.loading("Loading your data...").then(()=>{`}</div>
 					<pre style={{ margin: 0 }}>
@@ -39,8 +39,8 @@ const Types = () => (
 			</Group>
 			<Group>
 				<Paragraph>
-					When hideAfter = 0, It returns a callback function instead of a promise, that
-					hides the toast on execution
+					When hideAfter = 0, It returns a callback function that
+					hides the toast, instead of a promise.
 				</Paragraph>
 			</Group>
 		</Section>

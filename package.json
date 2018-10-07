@@ -1,6 +1,6 @@
 {
 	"name": "cogo-toast",
-	"version": "1.0.3",
+	"version": "1.0.0",
 	"description": "Beautiful, Zero Configuration, Toast Messages - Built with React",
 	"author": "Cogoport",
 	"license": "MIT",
@@ -48,7 +48,8 @@
 		"dev-test": "cd app && $npm_execpath run dev",
 		"dev": "concurrently --kill-others-on-fail \"$npm_execpath run dev-npm\" \"$npm_execpath run dev-test\"",
 		"build": "rollup -c",
-		"clean": "rm -rf node_modules && rm -rf dist && rm -rf yarn.lock && rm -rf .next && rm -rf yarn-error.log && rm -rf package-lock.json && rm -rf ./app/node_modules && rm -rf ./app/yarn.lock && rm -rf ./app/.next && rm -rf ./app/yarn-error.log && rm -rf ./app/package-lock.json && $npm_execpath install",
+		"prepare": "$npm_execpath run build",
+		"clean": "rm -rf node_modules && rm -rf dist && rm -rf yarn.lock && rm -rf .next && rm -rf yarn-error.log && rm -rf package-lock.json && rm -rf ./app/node_modules && rm -rf ./app/yarn.lock && rm -rf ./app/.next && rm -rf ./app/yarn-error.log && rm -rf ./app/package-lock.json && $npm_execpath setup",
 		"prettify": "prettier --config .prettierrc --write \"{src,app,app/pages,app/components}/**/*.js\""
 	},
 	"peerDependencies": {
@@ -72,7 +73,6 @@
 		"prettier": "^1.14.2",
 		"react": "^16.4.1",
 		"react-dom": "^16.4.1",
-		"react-scripts": "^1.1.4",
 		"rollup": "^0.64.1",
 		"rollup-plugin-babel": "^3.0.7",
 		"rollup-plugin-babel-minify": "^6.0.0",
@@ -80,6 +80,7 @@
 		"rollup-plugin-node-resolve": "^3.3.0",
 		"rollup-plugin-peer-deps-external": "^2.2.0",
 		"rollup-plugin-postcss": "^1.6.2",
-		"rollup-plugin-url": "^1.4.0"
+		"rollup-plugin-url": "^1.4.0",
+		"uglify-js": "^3.4.9"
 	}
 }
