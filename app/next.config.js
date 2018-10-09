@@ -4,6 +4,7 @@ const { ANALYZE, ANALYZE_LOG } = process.env;
 
 module.exports = {
 	exportPathMap: () => ({ '/': { page: '/' } }),
+	assetPrefix: '/cogo-toast/',
 	webpack: (config, { dev, isServer }) => {
 		if (dev) {
 			config.devtool = 'cheap-module-source-map';
