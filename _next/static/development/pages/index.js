@@ -65,7 +65,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].code.withConfig({
   displayName: "styles",
   componentId: "y8zuwj-0"
-})(["border-radius:4px;border:1px solid #d9d9d9;background-color:#d6fff8;padding:15px 30px;font-size:14px;line-height:35px;"]));
+})(["border-radius:4px;border:1px solid #d9d9d9;background-color:#d6fff8;padding:15px 30px;font-size:14px;line-height:35px;max-width:100%;"]));
 
 /***/ }),
 
@@ -91,7 +91,8 @@ var SvgComponent = function SvgComponent(props) {
     width: 20,
     height: 20,
     style: {
-      marginLeft: 10
+      marginLeft: 10,
+      cursor: 'pointer'
     },
     viewBox: "0 0 522.468 522.469"
   }, props, {
@@ -225,6 +226,7 @@ function (_Component) {
         },
         __self: this
       }, heading), code && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_code_icon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        onClick: this.toggleOpen,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 22
@@ -1096,16 +1098,16 @@ var Types = function Types() {
       lineNumber: 29
     },
     __self: this
-  }, "cogoToast.loading(\"Loading your data...\").then(()=>{"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", {
+  }, "cogoToast.loading(\"Loading your data...\").then(()=>{"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      margin: 0
+      marginLeft: 25
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "    cogoToast.success(\"Data Successfully Loaded\");"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "cogoToast.success(\"Data Successfully Loaded\");"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -1153,7 +1155,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].section.withConfig({
   displayName: "styles",
   componentId: "us300r-0"
-})(["display:flex;justify-content:center;flex-direction:column;flex-wrap:wrap;margin:20px 0px;"]));
+})(["display:flex;justify-content:center;flex-direction:column;flex-wrap:wrap;margin:20px 0px;max-width:90%;"]));
 var Group = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "styles__Group",
   componentId: "us300r-1"
