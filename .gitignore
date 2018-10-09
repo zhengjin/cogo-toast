@@ -21,4 +21,3 @@ yarn-debug.log*
 yarn-error.log*
 
 app/.next/
-app/out/
