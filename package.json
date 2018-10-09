@@ -52,7 +52,8 @@
 		"prepare": "$npm_execpath run build && $npm_execpath run minify",
 		"clean": "rm -rf node_modules && rm -rf dist && rm -rf yarn.lock && rm -rf .next && rm -rf yarn-error.log && rm -rf package-lock.json && rm -rf ./app/node_modules && rm -rf ./app/yarn.lock && rm -rf ./app/.next && rm -rf ./app/yarn-error.log && rm -rf ./app/package-lock.json && $npm_execpath setup",
 		"prettify": "prettier --config .prettierrc --write \"{src,app,app/pages,app/components}/**/*.js\"",
-		"deploy": "gh-pages -d app/build"
+		"predeploy": "cd app && $npm_execpath install && $npm_execpath run export",
+		"deploy": "gh-pages -d app/out"
 	},
 	"peerDependencies": {
 		"react": "^15.0.0 || ^16.0.0",
@@ -72,6 +73,7 @@
 		"eslint-plugin-import": "^2.14.0",
 		"eslint-plugin-jsx-a11y": "^6.1.1",
 		"eslint-plugin-react": "^7.11.1",
+		"gh-pages": "^1.2.0",
 		"prettier": "^1.14.2",
 		"react": "^16.4.1",
 		"react-dom": "^16.4.1",
