@@ -10,6 +10,8 @@
 
 - Built with **React**
 
+- Demo on https://cogoport.github.io/cogo-toast
+
 ## Get Started
 
 Install via NPM:
