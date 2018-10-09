@@ -19,7 +19,7 @@ class CodePanel extends Component {
 			<Container>
 				<Row>
 					<H3>{heading}</H3>
-					{code && <CodeIcon />}
+					{code && <CodeIcon onClick={this.toggleOpen} />}
 				</Row>
 				{isOpen && <CodeParent>{code}</CodeParent>}
 				{children}

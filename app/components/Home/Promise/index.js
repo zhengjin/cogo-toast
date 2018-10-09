@@ -27,9 +27,9 @@ const Types = () => (
 			<Group className="code">
 				<CodeBlock>
 					<div>{`cogoToast.loading("Loading your data...").then(()=>{`}</div>
-					<pre style={{ margin: 0 }}>
-						{`    cogoToast.success("Data Successfully Loaded");`}
-					</pre>
+					<div style={{ marginLeft: 25 }}>
+						{`cogoToast.success("Data Successfully Loaded");`}
+					</div>
 					<div>{`});`}</div>
 				</CodeBlock>
 				<Button className="primary" onClick={showToast}>

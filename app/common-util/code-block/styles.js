@@ -7,4 +7,5 @@ export default styled.code`
 	padding: 15px 30px;
 	font-size: 14px;
 	line-height: 35px;
+	max-width: 100%;
 `;

@@ -4,7 +4,7 @@ const SvgComponent = props => (
 	<svg
 		width={20}
 		height={20}
-		style={{ marginLeft: 10 }}
+		style={{ marginLeft: 10, cursor: 'pointer' }}
 		viewBox="0 0 522.468 522.469"
 		{...props}>
 		<g fill="#1cd8d2">

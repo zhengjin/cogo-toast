@@ -6,6 +6,7 @@ export default styled.section`
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin: 20px 0px;
+	max-width: 90%;
 `;
 
 export const Group = styled.div`
