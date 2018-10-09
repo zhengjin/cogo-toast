@@ -13,13 +13,13 @@
 		"start": "serve out"
 	},
 	"dependencies": {
+		"cogo-toast": "1.0.1",
 		"next": "7.0.1",
 		"prop-types": "15.6.2",
 		"react": "16.5.2",
 		"react-dom": "16.5.2",
 		"styled-components": "3.4.9",
 		"styled-normalize": "^8.0.1",
-		"cogo-toast": "link:..",
 		"serve": "10.0.2"
 	},
 	"devDependencies": {
