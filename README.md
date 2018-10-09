@@ -1,6 +1,6 @@
 # Cogo Toast
 
-**Beautiful,** Zero-Configuration, **Toast Messages**
+**Beautiful,** Zero-Configuration, **Toast Messages** - https://cogoport.github.io/cogo-toast
 
 - **Plug & Play.** No configuration required
 
@@ -9,8 +9,6 @@
 - Completely **Customizable**
 
 - Built with **React**
-
-- Demo on https://cogoport.github.io/cogo-toast
 
 ## Get Started
 
