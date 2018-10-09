@@ -1,15 +1,5 @@
 # Cogo Toast
 
-**Beautiful,** Zero-Configuration, **Toast Messages** - https://cogoport.github.io/cogo-toast
-
-- **Plug & Play.** No configuration required
-
-- Only ~ **3.5K Gzipped** (Including Icons, Styles, & Code)
-
-- Completely **Customizable**
-
-- Built with **React**
-
 ## Get Started
 
 Install via NPM:
@@ -31,7 +21,7 @@ Its Plug and Play. No configuration required. Just import and you are good to go
 ```javascript
 import cogoToast from 'cogo-toast';
 
-cogoToast.success("Success!");
+cogoToast.success("This is a success message!");
 ```
 
 ### 5 Built in Types

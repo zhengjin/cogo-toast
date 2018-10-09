@@ -51,7 +51,7 @@
 		"minify": "uglifyjs --compress --mangle -o dist/index.js -- dist/index.js",
 		"clean": "rm -rf node_modules && rm -rf dist && rm -rf yarn.lock && rm -rf .next && rm -rf yarn-error.log && rm -rf package-lock.json && rm -rf ./app/node_modules && rm -rf ./app/yarn.lock && rm -rf ./app/.next && rm -rf ./app/yarn-error.log && rm -rf ./app/package-lock.json && $npm_execpath setup",
 		"prettify": "prettier --config .prettierrc --write \"{src,app,app/pages,app/components}/**/*.js\"",
-		"predeploy": "cd app && $npm_execpath install && $npm_execpath run export",
+		"predeploy": "cd app && $npm_execpath install && $npm_execpath run deploy",
 		"deploy": "gh-pages -d app/out"
 	},
 	"peerDependencies": {
