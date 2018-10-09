@@ -22,15 +22,42 @@ export default class MyDocument extends Document {
 					<title>Beautiful, Zero Configuration, Toast Messages | CogoToast</title>
 
 					<meta
-						name="title"
 						key="title"
+						name="title"
 						content="Beautiful, Zero Configuration, Toast Messages | CogoToast"
 					/>
 					<meta
-						name="viewport"
 						key="viewport"
+						name="viewport"
 						content="width=device-width, initial-scale=1, shrink-to-fit=no"
 					/>
+
+					<link
+						rel="apple-touch-icon"
+						sizes="76x76"
+						href="/static/meta/apple-touch-icon.png"
+					/>
+					<link
+						rel="icon"
+						type="image/png"
+						sizes="32x32"
+						href="/static/meta/favicon-32x32.png"
+					/>
+					<link
+						rel="icon"
+						type="image/png"
+						sizes="16x16"
+						href="/static/meta/favicon-16x16.png"
+					/>
+					<link rel="manifest" href="/static/meta/site.webmanifest" />
+					<link
+						rel="mask-icon"
+						href="/static/meta/safari-pinned-tab.svg"
+						color="#4cba70"
+					/>
+
+					<meta name="msapplication-TileColor" content="#ffffff" />
+					<meta name="theme-color" content="#ffffff" />
 
 					{this.props.styleTags}
 				</Head>

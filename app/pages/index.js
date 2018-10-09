@@ -35,7 +35,7 @@ const Home = () => (
 
 const StarContainer = styled.div`
 	position: fixed;
-	top: 20px;
+	bottom: 20px;
 	right: 20px;
 
 	a {
