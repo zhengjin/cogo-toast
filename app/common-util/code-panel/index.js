@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Container, { Row, Icon, CodeParent } from './styles';
 import { H3 } from '../headers';
 import CodeBlock from '../code-block';
+import CodeIcon from './code-icon';
 
 class CodePanel extends Component {
 	state = { isOpen: false };
@@ -18,13 +19,7 @@ class CodePanel extends Component {
 			<Container>
 				<Row>
 					<H3>{heading}</H3>
-					{code && (
-						<Icon
-							src="/static/images/code.svg"
-							alt="See Code"
-							onClick={this.toggleOpen}
-						/>
-					)}
+					{code && <CodeIcon />}
 				</Row>
 				{isOpen && <CodeParent>{code}</CodeParent>}
 				{children}
