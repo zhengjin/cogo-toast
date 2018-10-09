@@ -1,6 +1,6 @@
 {
 	"name": "cogo-toast",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Beautiful, Zero Configuration, Toast Messages - Built with React",
 	"author": "Cogoport",
 	"license": "MIT",
@@ -49,7 +49,6 @@
 		"dev": "concurrently --kill-others-on-fail \"$npm_execpath run dev-npm\" \"$npm_execpath run dev-test\"",
 		"build": "rollup -c",
 		"minify": "uglifyjs --compress --mangle -o dist/index.js -- dist/index.js",
-		"prepare": "$npm_execpath run build && $npm_execpath run minify",
 		"clean": "rm -rf node_modules && rm -rf dist && rm -rf yarn.lock && rm -rf .next && rm -rf yarn-error.log && rm -rf package-lock.json && rm -rf ./app/node_modules && rm -rf ./app/yarn.lock && rm -rf ./app/.next && rm -rf ./app/yarn-error.log && rm -rf ./app/package-lock.json && $npm_execpath setup",
 		"prettify": "prettier --config .prettierrc --write \"{src,app,app/pages,app/components}/**/*.js\"",
 		"predeploy": "cd app && $npm_execpath install && $npm_execpath run export",
