@@ -1,5 +1,9 @@
 # Cogo Toast
 
+### Beautiful, Zero Configuration, Toast Messages
+
+https://cogoport.github.io/cogo-toast/
+
 ## Get Started
 
 Install via NPM:
