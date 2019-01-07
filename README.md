@@ -98,3 +98,7 @@ The SVG Icons and the Styles are packed along built into the Code.
 - Anmol Mahatpurkar, Cogoport
 
 #### Made with ♥ at [Cogoport](https://www.cogoport.com/)
+
+### Looking for Contributors
+
+Looking for contributors to make it more awesome!
