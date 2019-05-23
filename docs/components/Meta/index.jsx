@@ -1,8 +1,6 @@
 import React from 'react';
-import getConfig from 'next-server/config';
 
-const { publicRuntimeConfig } = getConfig();
-const { linkPrefix } = publicRuntimeConfig;
+const { linkPrefix } = process.env;
 
 const Meta = () => (
 	<>
