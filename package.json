@@ -4,7 +4,10 @@
 	"version": "2.0.0",
 	"license": "MIT",
 	"scripts": {
-		"dev": "rollup -c -w && cd docs && yarn dev",
+		"dev-npm": "rollup -c -w",
+		"dev-docs": "cd docs && $npm_execpath run dev",
+		"dev": "concurrently --kill-others-on-fail \"$npm_execpath run dev-npm\" \"$npm_execpath run dev-docs\"",
+		"minify": "uglifyjs --compress --mangle -o dist/index.js -- dist/index.js",
 		"build": "rollup -c"
 	},
 	"peerDependencies": {
@@ -34,6 +37,7 @@
 		"@babel/preset-react": "7.0.0",
 		"@svgr/rollup": "4.2.0",
 		"babel-eslint": "10.0.1",
+		"concurrently": "4.1.0",
 		"cross-env": "5.2.0",
 		"eslint": "5.16.0",
 		"eslint-config-airbnb": "17.1.0",

@@ -36,4 +36,9 @@ const info = props => (
 	</svg>
 );
 
-export default { success, warn, error, info };
+export default {
+	success,
+	warn,
+	error,
+	info,
+};

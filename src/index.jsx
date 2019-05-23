@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
-import Icons from './icons';
+import Icons from './icons.jsx';
 import styles from './styles.css';
 
 const colors = {
