@@ -32,8 +32,12 @@ CodePanel.Block = CodeBlock;
 
 CodePanel.propTypes = {
 	heading: PropTypes.string.isRequired,
-	code: PropTypes.node.isRequired,
 	children: PropTypes.node.isRequired,
+	code: PropTypes.node,
+};
+
+CodePanel.defaultProps = {
+	code: '',
 };
 
 export default CodePanel;
