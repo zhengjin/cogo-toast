@@ -1,20 +1,74 @@
 {
 	"name": "cogo-toast",
-	"version": "1.0.6",
 	"description": "Beautiful, Zero Configuration, Toast Messages - Built with React",
-	"author": "Cogoport",
+	"version": "2.0.0",
 	"license": "MIT",
-	"main": "dist/index",
+	"scripts": {
+		"dev": "rollup -c -w",
+		"build": "rollup -c"
+	},
+	"peerDependencies": {
+		"prop-types": "^15.5.4",
+		"react": "^15.0.0 || ^16.0.0",
+		"react-dom": "^15.0.0 || ^16.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "7.4.5",
+		"@babel/plugin-proposal-class-properties": "7.4.4",
+		"@babel/plugin-proposal-decorators": "7.4.4",
+		"@babel/plugin-proposal-do-expressions": "7.2.0",
+		"@babel/plugin-proposal-export-default-from": "7.2.0",
+		"@babel/plugin-proposal-export-namespace-from": "7.2.0",
+		"@babel/plugin-proposal-function-bind": "7.2.0",
+		"@babel/plugin-proposal-function-sent": "7.2.0",
+		"@babel/plugin-proposal-json-strings": "7.2.0",
+		"@babel/plugin-proposal-logical-assignment-operators": "7.2.0",
+		"@babel/plugin-proposal-nullish-coalescing-operator": "7.2.0",
+		"@babel/plugin-proposal-numeric-separator": "7.2.0",
+		"@babel/plugin-proposal-optional-chaining": "7.2.0",
+		"@babel/plugin-proposal-pipeline-operator": "7.3.2",
+		"@babel/plugin-proposal-throw-expressions": "7.2.0",
+		"@babel/plugin-syntax-dynamic-import": "7.2.0",
+		"@babel/plugin-syntax-import-meta": "7.2.0",
+		"@babel/preset-env": "7.4.5",
+		"@babel/preset-react": "7.0.0",
+		"@svgr/rollup": "4.2.0",
+		"babel-eslint": "10.0.1",
+		"cross-env": "5.2.0",
+		"eslint": "5.16.0",
+		"eslint-config-airbnb": "17.1.0",
+		"eslint-plugin-import": "2.17.2",
+		"eslint-plugin-jsx-a11y": "6.2.1",
+		"eslint-plugin-react": "7.13.0",
+		"eslint-plugin-react-hooks": "1.6.0",
+		"gh-pages": "2.0.1",
+		"prettier": "1.17.1",
+		"prettier-eslint-cli": "4.7.1",
+		"react": "16.8.6",
+		"react-dom": "16.8.6",
+		"react-scripts": "3.0.1",
+		"rollup": "1.12.3",
+		"rollup-plugin-babel": "4.3.2",
+		"rollup-plugin-commonjs": "10.0.0",
+		"rollup-plugin-node-resolve": "5.0.0",
+		"rollup-plugin-peer-deps-external": "2.2.0",
+		"rollup-plugin-postcss": "2.0.3",
+		"rollup-plugin-url": "2.2.1"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.es.js",
+	"jsnext:main": "dist/index.es.js",
+	"files": [
+		"dist"
+	],
+	"homepage": "https://cogoport.github.io/cogo-toast/",
+	"bugs": {
+		"url": "https://github.com/Cogoport/cogo-toast/issues"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Cogoport/cogo-toast.git"
 	},
-	"files": [
-		"LICENSE",
-		"README.md",
-		"CHANGELOG.md",
-		"dist"
-	],
 	"keywords": [
 		"react",
 		"toast",
@@ -31,59 +85,21 @@
 		"react components",
 		"ui"
 	],
+	"author": {
+		"name": "Cogoport",
+		"email": "developers@cogoport.io",
+		"url": "https://cogoport.io/"
+	},
 	"contributors": [
-		"anmolmahatpurkar"
-	],
-	"bugs": {
-		"url": "https://github.com/Cogoport/cogo-toast/issues"
-	},
-	"homepage": "https://cogoport.github.io/cogo-toast/",
-	"engines": {
-		"node": ">=8",
-		"npm": ">=5"
-	},
-	"scripts": {
-		"setup": "$npm_execpath install && cd app && $npm_execpath install",
-		"dev-npm": "rollup -c -w",
-		"dev-test": "cd app && $npm_execpath run dev",
-		"dev": "concurrently --kill-others-on-fail \"$npm_execpath run dev-npm\" \"$npm_execpath run dev-test\"",
-		"build": "rollup -c",
-		"minify": "uglifyjs --compress --mangle -o dist/index.js -- dist/index.js",
-		"clean": "rm -rf node_modules && rm -rf dist && rm -rf yarn.lock && rm -rf .next && rm -rf yarn-error.log && rm -rf package-lock.json && rm -rf ./app/node_modules && rm -rf ./app/yarn.lock && rm -rf ./app/.next && rm -rf ./app/yarn-error.log && rm -rf ./app/package-lock.json && $npm_execpath setup",
-		"prettify": "prettier --config .prettierrc --write \"{src,app,app/pages,app/components}/**/*.js\"",
-		"predeploy": "cd app && $npm_execpath install && $npm_execpath run deploy",
-		"deploy": "gh-pages --dotfiles=true -d app/out"
-	},
-	"peerDependencies": {
-		"react": "^15.0.0 || ^16.0.0",
-		"react-dom": "^15.0.0 || ^16.0.0"
-	},
-	"devDependencies": {
-		"babel-core": "^6.26.3",
-		"babel-eslint": "^8.2.5",
-		"babel-plugin-external-helpers": "^6.22.0",
-		"babel-preset-env": "^1.7.0",
-		"babel-preset-react": "^6.24.1",
-		"babel-preset-stage-0": "^6.24.1",
-		"concurrently": "4.0.1",
-		"cross-env": "^5.1.4",
-		"eslint": "^5.6.0",
-		"eslint-config-airbnb": "^17.1.0",
-		"eslint-plugin-import": "^2.14.0",
-		"eslint-plugin-jsx-a11y": "^6.1.1",
-		"eslint-plugin-react": "^7.11.1",
-		"gh-pages": "^1.2.0",
-		"prettier": "^1.14.2",
-		"react": "^16.4.1",
-		"react-dom": "^16.4.1",
-		"rollup": "^0.64.1",
-		"rollup-plugin-babel": "^3.0.7",
-		"rollup-plugin-babel-minify": "^6.0.0",
-		"rollup-plugin-commonjs": "^9.1.3",
-		"rollup-plugin-node-resolve": "^3.3.0",
-		"rollup-plugin-peer-deps-external": "^2.2.0",
-		"rollup-plugin-postcss": "^1.6.2",
-		"rollup-plugin-url": "^1.4.0",
-		"uglify-js": "^3.4.9"
-	}
+		{
+			"name": "Cogoport",
+			"email": "developers@cogoport.io",
+			"url": "https://cogoport.io/"
+		},
+		{
+			"name": "anmolmahatpurkar",
+			"email": "anmol@cogoport.com",
+			"url": "https://github.com/anmolmahatpurkar"
+		}
+	]
 }
