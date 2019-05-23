@@ -1,3 +1,3 @@
 module.exports = {
-	assetPrefix: '/cogo-toast/',
+	assetPrefix: process.env.NODE_ENV === 'production' ? '/cogo-toast/' : '',
 };

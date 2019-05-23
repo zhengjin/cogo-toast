@@ -11,22 +11,22 @@ const Meta = () => (
 		<link
 			rel="apple-touch-icon"
 			sizes="76x76"
-			href="/cogo-toast/static/meta/apple-touch-icon.png"
+			href="/static/meta/apple-touch-icon.png"
 		/>
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
-			href="/cogo-toast/static/meta/favicon-32x32.png"
+			href="/static/meta/favicon-32x32.png"
 		/>
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="16x16"
-			href="/cogo-toast/static/meta/favicon-16x16.png"
+			href="/static/meta/favicon-16x16.png"
 		/>
-		<link rel="manifest" href="/cogo-toast/static/meta/site.webmanifest" />
-		<link rel="mask-icon" href="/cogo-toast/static/meta/safari-pinned-tab.svg" color="#4cba70" />
+		<link rel="manifest" href="/static/meta/site.webmanifest" />
+		<link rel="mask-icon" href="/static/meta/safari-pinned-tab.svg" color="#4cba70" />
 
 		<meta name="msapplication-TileColor" content="#ffffff" />
 		<meta name="theme-color" content="#ffffff" />
@@ -49,7 +49,7 @@ const Meta = () => (
 			content="react,toast,react-toast,toast-react,toastr,toast messages,messages,notifications,react notifications,component,components,react component,react components,ui,cogoport,open source"
 		/>
 
-		<meta key="image" property="image" content="/cogo-toast/static/meta/safari-pinned-tab.svg" />
+		<meta key="image" property="image" content="/static/meta/safari-pinned-tab.svg" />
 
 		<meta key="author" name="author" content="Cogoport" />
 
@@ -69,7 +69,7 @@ const Meta = () => (
 		<meta
 			key="og:image"
 			property="og:image"
-			content="/cogo-toast/static/meta/safari-pinned-tab.svg"
+			content="/static/meta/safari-pinned-tab.svg"
 		/>
 
 		<meta key="twitter:site" name="twitter:site" content="https://cogoport.github.io/cogo-toast" />
@@ -78,7 +78,7 @@ const Meta = () => (
 		<meta
 			key="twitter:image"
 			name="twitter:image"
-			content="/cogo-toast/static/meta/safari-pinned-tab.svg"
+			content="/static/meta/safari-pinned-tab.svg"
 		/>
 	</>
 );
