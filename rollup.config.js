@@ -4,15 +4,22 @@ import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import resolve from 'rollup-plugin-node-resolve';
 import url from 'rollup-plugin-url';
+import svgr from '@svgr/rollup';
+
+import pkg from './package.json';
 
 export default {
-	input: 'src/index.js',
-	output: { file: 'dist/index.js', format: 'cjs', sourcemap: false },
+	input: 'src/index.jsx',
+	output: [
+		{ file: pkg.main, format: 'cjs', sourcemap: false },
+		{ file: pkg.module, format: 'es', sourcemap: false },
+	],
 	plugins: [
 		external(),
 		postcss({ modules: true }),
-		url(),
-		babel({ exclude: 'node_modules/**', plugins: ['external-helpers'] }),
+		url({ exclude: ['**/*.svg'] }),
+		svgr(),
+		babel({ exclude: 'node_modules/**' }),
 		resolve(),
 		commonjs(),
 	],
