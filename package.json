@@ -4,7 +4,7 @@
 	"version": "2.0.0",
 	"license": "MIT",
 	"scripts": {
-		"dev": "rollup -c -w",
+		"dev": "rollup -c -w && cd docs && yarn dev",
 		"build": "rollup -c"
 	},
 	"peerDependencies": {
