@@ -15,7 +15,7 @@ const Types = () => (
 			<Paragraph>The SVG Icons and the Styles are packed along built into the Code.</Paragraph>
 		</Section>
 		<Section>
-			<a href="https://github.com/Cogoport/cogo-toast" target="_blank">
+			<a href="https://github.com/Cogoport/cogo-toast" target="_blank" rel="noopener">
 				<Button className="info">Check out on Github!</Button>
 			</a>
 		</Section>

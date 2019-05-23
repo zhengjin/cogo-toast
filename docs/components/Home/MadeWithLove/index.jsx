@@ -4,7 +4,7 @@ import Container, { Anchor, Logo } from './styles';
 import HeartIcon from './heart-icon';
 
 const MadeWithLove = () => (
-	<Anchor href="https://www.cogoport.com" target="_blank">
+	<Anchor href="https://www.cogoport.com" target="_blank" rel="noopener">
 		<Container>
 			Made with <HeartIcon />
 			at
