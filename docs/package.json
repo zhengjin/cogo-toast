@@ -5,7 +5,9 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+		"export": "yarn run build && next export",
+		"deploy": "rm -rf node_modules/.cache && yarn export && touch out/.nojekyll"
 	},
 	"dependencies": {
 		"@emotion/core": "10.0.10",

@@ -7,11 +7,12 @@
 		"dev-npm": "rollup -c -w",
 		"dev-docs": "cd docs && $npm_execpath run dev",
 		"dev": "concurrently --kill-others-on-fail \"$npm_execpath run dev-npm\" \"$npm_execpath run dev-docs\"",
+		"build": "rollup -c",
 		"minify-cjs": "uglifyjs --compress --mangle -o dist/index.js -- dist/index.js",
 		"minify-es": "terser --compress --mangle -o dist/index.es.js -- dist/index.es.js",
 		"minify": "concurrently --kill-others-on-fail \"$npm_execpath run minify-cjs\" \"$npm_execpath run minify-es\"",
-		"build": "rollup -c",
-		"postbuild": "yarn minify"
+		"postbuild": "yarn minify",
+		"deploy": "gh-pages -t -d docs/out"
 	},
 	"peerDependencies": {
 		"prop-types": "^15.5.4",
