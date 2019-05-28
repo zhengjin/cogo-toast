@@ -1,7 +1,7 @@
 {
 	"name": "cogo-toast",
 	"description": "Beautiful, Zero Configuration, Toast Messages - Built with React",
-	"version": "1.0.7",
+	"version": "2.0.0",
 	"license": "MIT",
 	"scripts": {
 		"dev-npm": "rollup -c -w",
@@ -69,7 +69,8 @@
 	"module": "dist/index.es.js",
 	"jsnext:main": "dist/index.es.js",
 	"files": [
-		"dist"
+		"dist",
+		"index.d.ts"
 	],
 	"homepage": "https://cogoport.github.io/cogo-toast/",
 	"bugs": {

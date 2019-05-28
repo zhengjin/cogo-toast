@@ -9,14 +9,14 @@ import svgr from '@svgr/rollup';
 import pkg from './package.json';
 
 export default {
-	input: 'src/index.jsx',
+	input: 'src/index.js',
 	output: [
 		{ file: pkg.main, format: 'cjs', sourcemap: false },
 		{ file: pkg.module, format: 'es', sourcemap: false },
 	],
 	plugins: [
 		external(),
-		postcss({ modules: true }),
+		postcss({}),
 		url({ exclude: ['**/*.svg'] }),
 		svgr(),
 		babel({ exclude: 'node_modules/**' }),
