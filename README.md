@@ -1,20 +1,25 @@
-# Cogo Toast
+<p align="center"><img src="https://cogoport.github.io/cogo-toast/static/meta/mstile-150x150.png" alt="cogo-toast" title="cogo-toast" width="300"><p>
+<h1 align="center">Cogo Toast</h1>
+<p align="center" style="font-size: 1.2rem;">Beautiful, Zero Configuration, Toast Messages</p>
+<p align="center">https://cogoport.github.io/cogo-toast/</p>
 
-Beautiful, Zero Configuration, Toast Messages
-
-https://cogoport.github.io/cogo-toast/
-
-## Get Started
+[![License](https://img.shields.io/npm/l/@xstyled/styled-components.svg)](https://github.com/Cogoport/cogo-toast/blob/master/LICENSE)
+[![npm package](https://img.shields.io/npm/v/cogo-toast/latest.svg)](https://www.npmjs.com/package/cogo-toast)
+[![npm downloads](https://img.shields.io/npm/dm/cogo-toast.svg)](https://www.npmjs.com/package/cogo-toast)
+![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+[![Dependencies](https://img.shields.io/david/Cogoport/cogo-toast.svg)](https://david-dm.org/Cogoport/cogo-toast.svg)
+[![DevDependencies](https://img.shields.io/david/dev/Cogoport/cogo-toast.svg)](https://david-dm.org/Cogoport/cogo-toast?type=dev)
+[![Small size](https://img.badgesize.io/https://unpkg.com/cogo-toast/dist/index.js?compression=gzip)](https://unpkg.com/cogo-toast@2.0.1/dist/index.js)
 
 Install via NPM:
 
-```
+```bash
 npm install --save cogo-toast
 ```
 
 Install via Yarn:
 
-```
+```bash
 yarn add cogo-toast
 ```
 
@@ -97,4 +102,4 @@ The SVG Icons and the Styles are packed along built into the Code.
 
 ### Built With
 
--   [React](https://reactjs.org/)
+- [React](https://reactjs.org/)
