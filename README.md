@@ -1,15 +1,15 @@
 <p align="center"><img src="https://cogoport.github.io/cogo-toast/static/meta/android-chrome-96x96.png" alt="cogo-toast" title="cogo-toast" width="120"><p>
 <h1 align="center">Cogo Toast</h1>
 <p align="center" style="font-size: 1.2rem;">Beautiful, Zero Configuration, Toast Messages</p>
-<p align="center">https://cogoport.github.io/cogo-toast/</p>
+<p align="center"><a href="https://cogoport.github.io/cogo-toast/">https://cogoport.github.io/cogo-toast/</a></p>
 
-[![License](https://img.shields.io/npm/l/@xstyled/styled-components.svg)](https://github.com/Cogoport/cogo-toast/blob/master/LICENSE)
 [![npm package](https://img.shields.io/npm/v/cogo-toast/latest.svg)](https://www.npmjs.com/package/cogo-toast)
+[![Small size](https://img.badgesize.io/https://unpkg.com/cogo-toast/dist/index.js?compression=gzip)](https://unpkg.com/cogo-toast@2.0.1/dist/index.js)
 [![npm downloads](https://img.shields.io/npm/dm/cogo-toast.svg)](https://www.npmjs.com/package/cogo-toast)
-![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 [![Dependencies](https://img.shields.io/david/Cogoport/cogo-toast.svg)](https://david-dm.org/Cogoport/cogo-toast.svg)
 [![DevDependencies](https://img.shields.io/david/dev/Cogoport/cogo-toast.svg)](https://david-dm.org/Cogoport/cogo-toast?type=dev)
-[![Small size](https://img.badgesize.io/https://unpkg.com/cogo-toast/dist/index.js?compression=gzip)](https://unpkg.com/cogo-toast@2.0.1/dist/index.js)
+[![License](https://img.shields.io/npm/l/@xstyled/styled-components.svg)](https://github.com/Cogoport/cogo-toast/blob/master/LICENSE)
+![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 
 Install via NPM:
 
