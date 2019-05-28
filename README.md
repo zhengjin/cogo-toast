@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cogoport.github.io/cogo-toast/static/meta/mstile-150x150.png" alt="cogo-toast" title="cogo-toast" width="300"><p>
+<p align="center"><img src="https://cogoport.github.io/cogo-toast/static/meta/android-chrome-96x96.png" alt="cogo-toast" title="cogo-toast" width="120"><p>
 <h1 align="center">Cogo Toast</h1>
 <p align="center" style="font-size: 1.2rem;">Beautiful, Zero Configuration, Toast Messages</p>
 <p align="center">https://cogoport.github.io/cogo-toast/</p>
