@@ -146,8 +146,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css = ".styles_container__2pRR5 {\n\tposition: fixed;\n\twidth: 100%;\n\theight: 100vh;\n\ttop: 0px;\n\tleft: 0px;\n\tz-index: 2000;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: space-between;\n\tpointer-events: none;\n}\n\n.styles_row__2gmnz {\n\tdisplay: flex;\n\tjustify-content: space-between;\n}\n\n.styles_group__1BK6l {\n\tflex: 1;\n\tmargin: 10px 20px;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n}\n\n.styles_group__1BK6l:first-child {\n\talign-items: flex-start;\n}\n\n.styles_group__1BK6l:last-child {\n\talign-items: flex-end;\n}\n\n.styles_flex-bottom__1JKpC {\n\tjustify-content: flex-end;\n}\n\n.styles_toast__31ary {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tpadding: 12px 20px;\n\tbackground-color: #fff;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n\tborder-radius: 4px;\n\tmargin: 0px;\n\topacity: 1;\n\ttransition: 0.3s all ease-in-out;\n\tmin-height: 45px;\n}\n\n.styles_cursor-pointer__2Jvz5 {\n\tpointer-events: all;\n\tcursor: pointer;\n}\n\n.styles_icon-loading__3hKq4 {\n\tdisplay: inline-block;\n\twidth: 20px;\n\theight: 20px;\n}\n\n.styles_icon-loading__3hKq4:after {\n\tcontent: ' ';\n\tdisplay: block;\n\twidth: 14px;\n\theight: 14px;\n\tmargin: 1px;\n\tborder-radius: 50%;\n\tborder: 2px solid #0088ff;\n\tborder-color: #0088ff transparent #0088ff transparent;\n\tanimation: styles_icon-loading__3hKq4 1.2s linear infinite;\n}\n\n@keyframes styles_icon-loading__3hKq4 {\n\t0% {\n\t\ttransform: rotate(0deg);\n\t}\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n\n.styles_text-group__2eEaf {\n\tmargin-left: 15px;\n}\n\n.styles_heading__1RAju {\n\tfont-size: 18px;\n\tmargin: 0px;\n\tmargin-bottom: 5px;\n}\n\n.styles_text__1_7-z {\n\tfont-size: 14px;\n}\n\n@media (max-width: 768px) {\n\t.styles_row__2gmnz {\n\t\tjustify-content: flex-start;\n\t\tflex-direction: column;\n\t\tmargin: 7px 0px;\n\t}\n\n\t.styles_group__1BK6l {\n\t\tflex: none;\n\t\tmargin: 0px;\n\t}\n\n\t.styles_toast__31ary {\n\t\tmargin: 8px 15px;\n\t\twidth: initial;\n\t}\n}\n";
-var styles = {"container":"styles_container__2pRR5","row":"styles_row__2gmnz","group":"styles_group__1BK6l","flex-bottom":"styles_flex-bottom__1JKpC","toast":"styles_toast__31ary","cursor-pointer":"styles_cursor-pointer__2Jvz5","icon-loading":"styles_icon-loading__3hKq4","text-group":"styles_text-group__2eEaf","heading":"styles_heading__1RAju","text":"styles_text__1_7-z"};
+var css = ".ct-container {\n\tposition: fixed;\n\twidth: 100%;\n\theight: 100vh;\n\ttop: 0px;\n\tleft: 0px;\n\tz-index: 2000;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: space-between;\n\tpointer-events: none;\n}\n\n.ct-row {\n\tdisplay: flex;\n\tjustify-content: space-between;\n}\n\n.ct-group {\n\tflex: 1;\n\tmargin: 10px 20px;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n}\n\n.ct-group:first-child {\n\talign-items: flex-start;\n}\n\n.ct-group:last-child {\n\talign-items: flex-end;\n}\n\n.ct-flex-bottom {\n\tjustify-content: flex-end;\n}\n\n.ct-toast {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tpadding: 12px 20px;\n\tbackground-color: #fff;\n\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n\tcolor: #000;\n\tborder-radius: 4px;\n\tmargin: 0px;\n\topacity: 1;\n\ttransition: 0.3s all ease-in-out;\n\tmin-height: 45px;\n}\n\n.ct-cursor-pointer {\n\tpointer-events: all;\n\tcursor: pointer;\n}\n\n.ct-icon-loading {\n\tdisplay: inline-block;\n\twidth: 20px;\n\theight: 20px;\n}\n\n.ct-icon-loading:after {\n\tcontent: ' ';\n\tdisplay: block;\n\twidth: 14px;\n\theight: 14px;\n\tmargin: 1px;\n\tborder-radius: 50%;\n\tborder: 2px solid #0088ff;\n\tborder-color: #0088ff transparent #0088ff transparent;\n\tanimation: ct-icon-loading 1.2s linear infinite;\n}\n\n@keyframes ct-icon-loading {\n\t0% {\n\t\ttransform: rotate(0deg);\n\t}\n\t100% {\n\t\ttransform: rotate(360deg);\n\t}\n}\n\n.ct-text-group {\n\tmargin-left: 15px;\n}\n\n.ct-heading {\n\tfont-size: 18px;\n\tmargin: 0px;\n\tmargin-bottom: 5px;\n}\n\n.ct-text {\n\tfont-size: 14px;\n}\n\n@media (max-width: 768px) {\n\t.ct-row {\n\t\tjustify-content: flex-start;\n\t\tflex-direction: column;\n\t\tmargin: 7px 0px;\n\t}\n\n\t.ct-group {\n\t\tflex: none;\n\t\tmargin: 0px;\n\t}\n\n\t.ct-toast {\n\t\tmargin: 8px 15px;\n\t\twidth: initial;\n\t}\n}\n";
 styleInject(css);
 
 var colors = {
@@ -165,8 +164,6 @@ var getDOMNodeFromReact = function getDOMNodeFromReact(reactNode) {
 };
 
 var create = function create(text, options) {
-  var _toastStyle;
-
   var _options$type = options.type,
       type = _options$type === void 0 ? 'info' : _options$type,
       _options$hideAfter = options.hideAfter,
@@ -180,59 +177,64 @@ var create = function create(text, options) {
       onClick = options.onClick;
 
   if (!document.getElementById('ct-container')) {
-    var bottomClass = "".concat(styles.group, " ").concat(styles['flex-bottom']);
     document.body.appendChild(getDOMNodeFromReact(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-container",
-      className: styles.container
+      className: "ct-container"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-top",
-      className: styles.row
+      className: "ct-row"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-top-left",
-      className: styles.group
+      className: "ct-group"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-top-center",
-      className: styles.group
+      className: "ct-group"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-top-right",
-      className: styles.group
+      className: "ct-group"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-bottom",
-      className: styles.row
+      className: "ct-row"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-bottom-left",
-      className: bottomClass
+      className: "ct-group ct-flex-bottom"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-bottom-center",
-      className: bottomClass
+      className: "ct-group ct-flex-bottom"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "ct-bottom-right",
-      className: bottomClass
+      className: "ct-group ct-flex-bottom"
     })))));
   }
 
   var parentNode = document.body.clientWidth > 768 ? document.getElementById("ct-".concat(position)) : document.getElementById("ct-".concat(position.includes('bottom') ? 'bottom' : 'top'));
   var CurrentIcon = Icons[type];
   var place = position.includes('bottom') ? 'Bottom' : 'Top';
-  var toastClass = "".concat(styles.toast).concat(onClick ? " ".concat(styles['cursor-pointer']) : '');
-  var toastStyle = (_toastStyle = {
-    borderLeft: "".concat(bar.size || '3px', " ").concat(bar.style || 'solid', " ").concat(bar.color || colors[type]),
-    opacity: 0
-  }, _defineProperty(_toastStyle, "margin".concat(place), -15), _defineProperty(_toastStyle, "paddingLeft", heading ? 25 : undefined), _defineProperty(_toastStyle, "minHeight", heading ? 50 : undefined), _toastStyle);
+  var toastClass = "ct-toast".concat(onClick ? ' ct-cursor-pointer' : '');
+  var borderLeft = "".concat(bar.size || '3px', " ").concat(bar.style || 'solid', " ").concat(bar.color || colors[type]);
+  var marginType = "margin".concat(place);
+
+  var toastStyle = _defineProperty({
+    paddingLeft: heading ? 25 : undefined,
+    minHeight: heading ? 50 : undefined,
+    opacity: 0,
+    borderLeft: borderLeft
+  }, marginType, -15);
+
   var toastNode = getDOMNodeFromReact(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: toastClass,
     style: toastStyle
   }, icon || (type !== 'loading' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CurrentIcon, null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: styles['icon-loading']
+    className: "ct-icon-loading"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: styles['text-group'],
+    className: "ct-text-group",
     style: heading ? {
       marginLeft: 25
     } : {}
   }, heading && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: styles.heading
+    className: "ct-heading"
   }, heading), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: styles.text
+    className: "ct-text"
   }, text))));
 
   if (onClick) {
@@ -255,14 +257,14 @@ var create = function create(text, options) {
 
   if (hideAfter <= 0) {
     return hide;
-  } else {
-    return new Promise(function (resolve) {
-      setTimeout(function () {
-        hide();
-        resolve();
-      }, hideAfter * 1000);
-    });
   }
+
+  return new Promise(function (resolve) {
+    setTimeout(function () {
+      hide();
+      resolve();
+    }, hideAfter * 1000);
+  });
 };
 
 var success$1 = function success(text, options) {
@@ -6796,6 +6798,7 @@ var Types = function Types() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/Cogoport/cogo-toast",
     target: "_blank",
+    rel: "noopener",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -6903,6 +6906,7 @@ var MadeWithLove = function MadeWithLove() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__["Anchor"], {
     href: "https://www.cogoport.com",
     target: "_blank",
+    rel: "noopener",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7

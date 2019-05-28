@@ -16,9 +16,9 @@ var _jsxFileName = "/Users/anmolmahatpurkar/Projects/Cogoport/cogo-toast/docs/co
 
 
 var globalStyles =  false ? undefined : {
-  name: "sgpms4-globalStyles",
-  styles: "@import url('https://fonts.googleapis.com/css?family=Lato:400,700');*{box-sizing:border-box;}*:before,*:after{box-sizing:border-box;}body{font-family:'Lato',sans-serif;line-height:1.6;margin:0;box-sizing:border-box;color:#202020;overflow-x:hidden;}html{line-height:1.15;-webkit-text-size-adjust:100%;}body{box-sizing:border-box;width:auto !important;line-height:1.6;margin:0;color:#202020;overflow-x:hidden;font-family:'Lato',sans-serif;}main{display:block;}h1{font-size:2em;margin:0.67em 0;}hr{box-sizing:content-box;height:0;overflow:visible;}pre{font-family:monospace,monospace;font-size:1em;}a{background-color:transparent;}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted;}b,strong{font-weight:bolder;}code,kbd,samp{font-family:monospace,monospace;font-size:1em;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sub{bottom:-0.25em;}sup{top:-0.5em;}img{border-style:none;}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0;}button,input{overflow:visible;}button,select{text-transform:none;}button,[type='button'],[type='reset'],[type='submit']{-webkit-appearance:button;}button::-moz-focus-inner,[type='button']::-moz-focus-inner,[type='reset']::-moz-focus-inner,[type='submit']::-moz-focus-inner{border-style:none;padding:0;}button:-moz-focusring,[type='button']:-moz-focusring,[type='reset']:-moz-focusring,[type='submit']:-moz-focusring{outline:1px dotted ButtonText;}fieldset{padding:0.35em 0.75em 0.625em;}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}progress{vertical-align:baseline;}textarea{overflow:auto;}[type='checkbox'],[type='radio']{box-sizing:border-box;padding:0;}[type='number']::-webkit-inner-spin-button,[type='number']::-webkit-outer-spin-button{height:auto;}[type='search']{-webkit-appearance:textfield;outline-offset:-2px;}[type='search']::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}details{display:block;}summary{display:list-item;}template{display:none;}[hidden]{display:none;}label:globalStyles;",
-  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm1vbG1haGF0cHVya2FyL1Byb2plY3RzL0NvZ29wb3J0L2NvZ28tdG9hc3QvZG9jcy9jb21wb25lbnRzL0dsb2JhbC1TdHlsZXMvaW5kZXguanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUl3QiIsImZpbGUiOiIvVXNlcnMvYW5tb2xtYWhhdHB1cmthci9Qcm9qZWN0cy9Db2dvcG9ydC9jb2dvLXRvYXN0L2RvY3MvY29tcG9uZW50cy9HbG9iYWwtU3R5bGVzL2luZGV4LmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmltcG9ydCB7IEdsb2JhbCwgY3NzIH0gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5cbmNvbnN0IGdsb2JhbFN0eWxlcyA9IGNzc2Bcblx0QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1MYXRvOjQwMCw3MDAnKTtcblxuXHQqIHtcblx0XHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHR9XG5cdCo6YmVmb3JlLFxuXHQqOmFmdGVyIHtcblx0XHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHR9XG5cblx0Ym9keSB7XG5cdFx0Zm9udC1mYW1pbHk6ICdMYXRvJywgc2Fucy1zZXJpZjtcblx0XHRsaW5lLWhlaWdodDogMS42O1xuXHRcdG1hcmdpbjogMDtcblx0XHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHRcdGNvbG9yOiAjMjAyMDIwO1xuXHRcdG92ZXJmbG93LXg6IGhpZGRlbjtcblx0fVxuXG5cdGh0bWwge1xuXHRcdGxpbmUtaGVpZ2h0OiAxLjE1O1xuXHRcdC13ZWJraXQtdGV4dC1zaXplLWFkanVzdDogMTAwJTtcblx0fVxuXG5cdGJvZHkge1xuXHRcdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG5cdFx0d2lkdGg6IGF1dG8gIWltcG9ydGFudDtcblx0XHRsaW5lLWhlaWdodDogMS42O1xuXHRcdG1hcmdpbjogMDtcblx0XHRjb2xvcjogIzIwMjAyMDtcblx0XHRvdmVyZmxvdy14OiBoaWRkZW47XG5cdFx0Zm9udC1mYW1pbHk6ICdMYXRvJywgc2Fucy1zZXJpZjtcblx0fVxuXG5cdG1haW4ge1xuXHRcdGRpc3BsYXk6IGJsb2NrO1xuXHR9XG5cblx0aDEge1xuXHRcdGZvbnQtc2l6ZTogMmVtO1xuXHRcdG1hcmdpbjogMC42N2VtIDA7XG5cdH1cblxuXHRociB7XG5cdFx0Ym94LXNpemluZzogY29udGVudC1ib3g7XG5cdFx0aGVpZ2h0OiAwO1xuXHRcdG92ZXJmbG93OiB2aXNpYmxlO1xuXHR9XG5cblx0cHJlIHtcblx0XHRmb250LWZhbWlseTogbW9ub3NwYWNlLCBtb25vc3BhY2U7XG5cdFx0Zm9udC1zaXplOiAxZW07XG5cdH1cblxuXHRhIHtcblx0XHRiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcblx0fVxuXG5cdGFiYnJbdGl0bGVdIHtcblx0XHRib3JkZXItYm90dG9tOiBub25lO1xuXHRcdHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xuXHRcdHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lIGRvdHRlZDtcblx0fVxuXG5cdGIsXG5cdHN0cm9uZyB7XG5cdFx0Zm9udC13ZWlnaHQ6IGJvbGRlcjtcblx0fVxuXHRjb2RlLFxuXHRrYmQsXG5cdHNhbXAge1xuXHRcdGZvbnQtZmFtaWx5OiBtb25vc3BhY2UsIG1vbm9zcGFjZTtcblx0XHRmb250LXNpemU6IDFlbTtcblx0fVxuXG5cdHNtYWxsIHtcblx0XHRmb250LXNpemU6IDgwJTtcblx0fVxuXG5cdHN1Yixcblx0c3VwIHtcblx0XHRmb250LXNpemU6IDc1JTtcblx0XHRsaW5lLWhlaWdodDogMDtcblx0XHRwb3NpdGlvbjogcmVsYXRpdmU7XG5cdFx0dmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xuXHR9XG5cblx0c3ViIHtcblx0XHRib3R0b206IC0wLjI1ZW07XG5cdH1cblxuXHRzdXAge1xuXHRcdHRvcDogLTAuNWVtO1xuXHR9XG5cblx0aW1nIHtcblx0XHRib3JkZXItc3R5bGU6IG5vbmU7XG5cdH1cblxuXHRidXR0b24sXG5cdGlucHV0LFxuXHRvcHRncm91cCxcblx0c2VsZWN0LFxuXHR0ZXh0YXJlYSB7XG5cdFx0Zm9udC1mYW1pbHk6IGluaGVyaXQ7XG5cdFx0Zm9udC1zaXplOiAxMDAlO1xuXHRcdGxpbmUtaGVpZ2h0OiAxLjE1O1xuXHRcdG1hcmdpbjogMDtcblx0fVxuXG5cdGJ1dHRvbixcblx0aW5wdXQge1xuXHRcdG92ZXJmbG93OiB2aXNpYmxlO1xuXHR9XG5cblx0YnV0dG9uLFxuXHRzZWxlY3Qge1xuXHRcdHRleHQtdHJhbnNmb3JtOiBub25lO1xuXHR9XG5cblx0YnV0dG9uLFxuXHRbdHlwZT0nYnV0dG9uJ10sXG5cdFt0eXBlPSdyZXNldCddLFxuXHRbdHlwZT0nc3VibWl0J10ge1xuXHRcdC13ZWJraXQtYXBwZWFyYW5jZTogYnV0dG9uO1xuXHR9XG5cblx0YnV0dG9uOjotbW96LWZvY3VzLWlubmVyLFxuXHRbdHlwZT0nYnV0dG9uJ106Oi1tb3otZm9jdXMtaW5uZXIsXG5cdFt0eXBlPSdyZXNldCddOjotbW96LWZvY3VzLWlubmVyLFxuXHRbdHlwZT0nc3VibWl0J106Oi1tb3otZm9jdXMtaW5uZXIge1xuXHRcdGJvcmRlci1zdHlsZTogbm9uZTtcblx0XHRwYWRkaW5nOiAwO1xuXHR9XG5cblx0YnV0dG9uOi1tb3otZm9jdXNyaW5nLFxuXHRbdHlwZT0nYnV0dG9uJ106LW1vei1mb2N1c3JpbmcsXG5cdFt0eXBlPSdyZXNldCddOi1tb3otZm9jdXNyaW5nLFxuXHRbdHlwZT0nc3VibWl0J106LW1vei1mb2N1c3Jpbmcge1xuXHRcdG91dGxpbmU6IDFweCBkb3R0ZWQgQnV0dG9uVGV4dDtcblx0fVxuXG5cdGZpZWxkc2V0IHtcblx0XHRwYWRkaW5nOiAwLjM1ZW0gMC43NWVtIDAuNjI1ZW07XG5cdH1cblxuXHRsZWdlbmQge1xuXHRcdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG5cdFx0Y29sb3I6IGluaGVyaXQ7XG5cdFx0ZGlzcGxheTogdGFibGU7XG5cdFx0bWF4LXdpZHRoOiAxMDAlO1xuXHRcdHBhZGRpbmc6IDA7XG5cdFx0d2hpdGUtc3BhY2U6IG5vcm1hbDtcblx0fVxuXG5cdHByb2dyZXNzIHtcblx0XHR2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG5cdH1cblxuXHR0ZXh0YXJlYSB7XG5cdFx0b3ZlcmZsb3c6IGF1dG87XG5cdH1cblxuXHRbdHlwZT0nY2hlY2tib3gnXSxcblx0W3R5cGU9J3JhZGlvJ10ge1xuXHRcdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG5cdFx0cGFkZGluZzogMDtcblx0fVxuXG5cdFt0eXBlPSdudW1iZXInXTo6LXdlYmtpdC1pbm5lci1zcGluLWJ1dHRvbixcblx0W3R5cGU9J251bWJlciddOjotd2Via2l0LW91dGVyLXNwaW4tYnV0dG9uIHtcblx0XHRoZWlnaHQ6IGF1dG87XG5cdH1cblxuXHRbdHlwZT0nc2VhcmNoJ10ge1xuXHRcdC13ZWJraXQtYXBwZWFyYW5jZTogdGV4dGZpZWxkO1xuXHRcdG91dGxpbmUtb2Zmc2V0OiAtMnB4O1xuXHR9XG5cblx0W3R5cGU9J3NlYXJjaCddOjotd2Via2l0LXNlYXJjaC1kZWNvcmF0aW9uIHtcblx0XHQtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7XG5cdH1cblxuXHQ6Oi13ZWJraXQtZmlsZS11cGxvYWQtYnV0dG9uIHtcblx0XHQtd2Via2l0LWFwcGVhcmFuY2U6IGJ1dHRvbjtcblx0XHRmb250OiBpbmhlcml0O1xuXHR9XG5cblx0ZGV0YWlscyB7XG5cdFx0ZGlzcGxheTogYmxvY2s7XG5cdH1cblxuXHRzdW1tYXJ5IHtcblx0XHRkaXNwbGF5OiBsaXN0LWl0ZW07XG5cdH1cblxuXHR0ZW1wbGF0ZSB7XG5cdFx0ZGlzcGxheTogbm9uZTtcblx0fVxuXG5cdFtoaWRkZW5dIHtcblx0XHRkaXNwbGF5OiBub25lO1xuXHR9XG5gO1xuXG5jb25zdCBHbG9iYWxTdHlsZXMgPSAoKSA9PiA8R2xvYmFsIHN0eWxlcz17Z2xvYmFsU3R5bGVzfSAvPjtcblxuZXhwb3J0IGRlZmF1bHQgR2xvYmFsU3R5bGVzO1xuIl19 */"
+  name: "15r0ay2-globalStyles",
+  styles: "@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');*{box-sizing:border-box;}*:before,*:after{box-sizing:border-box;}body{font-family:'Lato',sans-serif;line-height:1.6;margin:0;box-sizing:border-box;color:#202020;overflow-x:hidden;}html{line-height:1.15;-webkit-text-size-adjust:100%;}body{box-sizing:border-box;width:auto !important;line-height:1.6;margin:0;color:#202020;overflow-x:hidden;font-family:'Lato',sans-serif;}main{display:block;}h1{font-size:2em;margin:0.67em 0;}hr{box-sizing:content-box;height:0;overflow:visible;}pre{font-family:monospace,monospace;font-size:1em;}a{background-color:transparent;}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted;}b,strong{font-weight:bolder;}code,kbd,samp{font-family:monospace,monospace;font-size:1em;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sub{bottom:-0.25em;}sup{top:-0.5em;}img{border-style:none;}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0;}button,input{overflow:visible;}button,select{text-transform:none;}button,[type='button'],[type='reset'],[type='submit']{-webkit-appearance:button;}button::-moz-focus-inner,[type='button']::-moz-focus-inner,[type='reset']::-moz-focus-inner,[type='submit']::-moz-focus-inner{border-style:none;padding:0;}button:-moz-focusring,[type='button']:-moz-focusring,[type='reset']:-moz-focusring,[type='submit']:-moz-focusring{outline:1px dotted ButtonText;}fieldset{padding:0.35em 0.75em 0.625em;}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}progress{vertical-align:baseline;}textarea{overflow:auto;}[type='checkbox'],[type='radio']{box-sizing:border-box;padding:0;}[type='number']::-webkit-inner-spin-button,[type='number']::-webkit-outer-spin-button{height:auto;}[type='search']{-webkit-appearance:textfield;outline-offset:-2px;}[type='search']::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}details{display:block;}summary{display:list-item;}template{display:none;}[hidden]{display:none;}label:globalStyles;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hbm1vbG1haGF0cHVya2FyL1Byb2plY3RzL0NvZ29wb3J0L2NvZ28tdG9hc3QvZG9jcy9jb21wb25lbnRzL0dsb2JhbC1TdHlsZXMvaW5kZXguanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUl3QiIsImZpbGUiOiIvVXNlcnMvYW5tb2xtYWhhdHB1cmthci9Qcm9qZWN0cy9Db2dvcG9ydC9jb2dvLXRvYXN0L2RvY3MvY29tcG9uZW50cy9HbG9iYWwtU3R5bGVzL2luZGV4LmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmltcG9ydCB7IEdsb2JhbCwgY3NzIH0gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5cbmNvbnN0IGdsb2JhbFN0eWxlcyA9IGNzc2Bcblx0QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1MYXRvOjQwMCw3MDAmZGlzcGxheT1zd2FwJyk7XG5cblx0KiB7XG5cdFx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcblx0fVxuXHQqOmJlZm9yZSxcblx0KjphZnRlciB7XG5cdFx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcblx0fVxuXG5cdGJvZHkge1xuXHRcdGZvbnQtZmFtaWx5OiAnTGF0bycsIHNhbnMtc2VyaWY7XG5cdFx0bGluZS1oZWlnaHQ6IDEuNjtcblx0XHRtYXJnaW46IDA7XG5cdFx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcblx0XHRjb2xvcjogIzIwMjAyMDtcblx0XHRvdmVyZmxvdy14OiBoaWRkZW47XG5cdH1cblxuXHRodG1sIHtcblx0XHRsaW5lLWhlaWdodDogMS4xNTtcblx0XHQtd2Via2l0LXRleHQtc2l6ZS1hZGp1c3Q6IDEwMCU7XG5cdH1cblxuXHRib2R5IHtcblx0XHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHRcdHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XG5cdFx0bGluZS1oZWlnaHQ6IDEuNjtcblx0XHRtYXJnaW46IDA7XG5cdFx0Y29sb3I6ICMyMDIwMjA7XG5cdFx0b3ZlcmZsb3cteDogaGlkZGVuO1xuXHRcdGZvbnQtZmFtaWx5OiAnTGF0bycsIHNhbnMtc2VyaWY7XG5cdH1cblxuXHRtYWluIHtcblx0XHRkaXNwbGF5OiBibG9jaztcblx0fVxuXG5cdGgxIHtcblx0XHRmb250LXNpemU6IDJlbTtcblx0XHRtYXJnaW46IDAuNjdlbSAwO1xuXHR9XG5cblx0aHIge1xuXHRcdGJveC1zaXppbmc6IGNvbnRlbnQtYm94O1xuXHRcdGhlaWdodDogMDtcblx0XHRvdmVyZmxvdzogdmlzaWJsZTtcblx0fVxuXG5cdHByZSB7XG5cdFx0Zm9udC1mYW1pbHk6IG1vbm9zcGFjZSwgbW9ub3NwYWNlO1xuXHRcdGZvbnQtc2l6ZTogMWVtO1xuXHR9XG5cblx0YSB7XG5cdFx0YmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG5cdH1cblxuXHRhYmJyW3RpdGxlXSB7XG5cdFx0Ym9yZGVyLWJvdHRvbTogbm9uZTtcblx0XHR0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcblx0XHR0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZSBkb3R0ZWQ7XG5cdH1cblxuXHRiLFxuXHRzdHJvbmcge1xuXHRcdGZvbnQtd2VpZ2h0OiBib2xkZXI7XG5cdH1cblx0Y29kZSxcblx0a2JkLFxuXHRzYW1wIHtcblx0XHRmb250LWZhbWlseTogbW9ub3NwYWNlLCBtb25vc3BhY2U7XG5cdFx0Zm9udC1zaXplOiAxZW07XG5cdH1cblxuXHRzbWFsbCB7XG5cdFx0Zm9udC1zaXplOiA4MCU7XG5cdH1cblxuXHRzdWIsXG5cdHN1cCB7XG5cdFx0Zm9udC1zaXplOiA3NSU7XG5cdFx0bGluZS1oZWlnaHQ6IDA7XG5cdFx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHRcdHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcblx0fVxuXG5cdHN1YiB7XG5cdFx0Ym90dG9tOiAtMC4yNWVtO1xuXHR9XG5cblx0c3VwIHtcblx0XHR0b3A6IC0wLjVlbTtcblx0fVxuXG5cdGltZyB7XG5cdFx0Ym9yZGVyLXN0eWxlOiBub25lO1xuXHR9XG5cblx0YnV0dG9uLFxuXHRpbnB1dCxcblx0b3B0Z3JvdXAsXG5cdHNlbGVjdCxcblx0dGV4dGFyZWEge1xuXHRcdGZvbnQtZmFtaWx5OiBpbmhlcml0O1xuXHRcdGZvbnQtc2l6ZTogMTAwJTtcblx0XHRsaW5lLWhlaWdodDogMS4xNTtcblx0XHRtYXJnaW46IDA7XG5cdH1cblxuXHRidXR0b24sXG5cdGlucHV0IHtcblx0XHRvdmVyZmxvdzogdmlzaWJsZTtcblx0fVxuXG5cdGJ1dHRvbixcblx0c2VsZWN0IHtcblx0XHR0ZXh0LXRyYW5zZm9ybTogbm9uZTtcblx0fVxuXG5cdGJ1dHRvbixcblx0W3R5cGU9J2J1dHRvbiddLFxuXHRbdHlwZT0ncmVzZXQnXSxcblx0W3R5cGU9J3N1Ym1pdCddIHtcblx0XHQtd2Via2l0LWFwcGVhcmFuY2U6IGJ1dHRvbjtcblx0fVxuXG5cdGJ1dHRvbjo6LW1vei1mb2N1cy1pbm5lcixcblx0W3R5cGU9J2J1dHRvbiddOjotbW96LWZvY3VzLWlubmVyLFxuXHRbdHlwZT0ncmVzZXQnXTo6LW1vei1mb2N1cy1pbm5lcixcblx0W3R5cGU9J3N1Ym1pdCddOjotbW96LWZvY3VzLWlubmVyIHtcblx0XHRib3JkZXItc3R5bGU6IG5vbmU7XG5cdFx0cGFkZGluZzogMDtcblx0fVxuXG5cdGJ1dHRvbjotbW96LWZvY3VzcmluZyxcblx0W3R5cGU9J2J1dHRvbiddOi1tb3otZm9jdXNyaW5nLFxuXHRbdHlwZT0ncmVzZXQnXTotbW96LWZvY3VzcmluZyxcblx0W3R5cGU9J3N1Ym1pdCddOi1tb3otZm9jdXNyaW5nIHtcblx0XHRvdXRsaW5lOiAxcHggZG90dGVkIEJ1dHRvblRleHQ7XG5cdH1cblxuXHRmaWVsZHNldCB7XG5cdFx0cGFkZGluZzogMC4zNWVtIDAuNzVlbSAwLjYyNWVtO1xuXHR9XG5cblx0bGVnZW5kIHtcblx0XHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHRcdGNvbG9yOiBpbmhlcml0O1xuXHRcdGRpc3BsYXk6IHRhYmxlO1xuXHRcdG1heC13aWR0aDogMTAwJTtcblx0XHRwYWRkaW5nOiAwO1xuXHRcdHdoaXRlLXNwYWNlOiBub3JtYWw7XG5cdH1cblxuXHRwcm9ncmVzcyB7XG5cdFx0dmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xuXHR9XG5cblx0dGV4dGFyZWEge1xuXHRcdG92ZXJmbG93OiBhdXRvO1xuXHR9XG5cblx0W3R5cGU9J2NoZWNrYm94J10sXG5cdFt0eXBlPSdyYWRpbyddIHtcblx0XHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHRcdHBhZGRpbmc6IDA7XG5cdH1cblxuXHRbdHlwZT0nbnVtYmVyJ106Oi13ZWJraXQtaW5uZXItc3Bpbi1idXR0b24sXG5cdFt0eXBlPSdudW1iZXInXTo6LXdlYmtpdC1vdXRlci1zcGluLWJ1dHRvbiB7XG5cdFx0aGVpZ2h0OiBhdXRvO1xuXHR9XG5cblx0W3R5cGU9J3NlYXJjaCddIHtcblx0XHQtd2Via2l0LWFwcGVhcmFuY2U6IHRleHRmaWVsZDtcblx0XHRvdXRsaW5lLW9mZnNldDogLTJweDtcblx0fVxuXG5cdFt0eXBlPSdzZWFyY2gnXTo6LXdlYmtpdC1zZWFyY2gtZGVjb3JhdGlvbiB7XG5cdFx0LXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xuXHR9XG5cblx0Ojotd2Via2l0LWZpbGUtdXBsb2FkLWJ1dHRvbiB7XG5cdFx0LXdlYmtpdC1hcHBlYXJhbmNlOiBidXR0b247XG5cdFx0Zm9udDogaW5oZXJpdDtcblx0fVxuXG5cdGRldGFpbHMge1xuXHRcdGRpc3BsYXk6IGJsb2NrO1xuXHR9XG5cblx0c3VtbWFyeSB7XG5cdFx0ZGlzcGxheTogbGlzdC1pdGVtO1xuXHR9XG5cblx0dGVtcGxhdGUge1xuXHRcdGRpc3BsYXk6IG5vbmU7XG5cdH1cblxuXHRbaGlkZGVuXSB7XG5cdFx0ZGlzcGxheTogbm9uZTtcblx0fVxuYDtcblxuY29uc3QgR2xvYmFsU3R5bGVzID0gKCkgPT4gPEdsb2JhbCBzdHlsZXM9e2dsb2JhbFN0eWxlc30gLz47XG5cbmV4cG9ydCBkZWZhdWx0IEdsb2JhbFN0eWxlcztcbiJdfQ== */"
 };
 
 var GlobalStyles = function GlobalStyles() {
@@ -49,6 +49,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _jsxFileName = "/Users/anmolmahatpurkar/Projects/Cogoport/cogo-toast/docs/components/Meta/index.jsx";
 
+var linkPrefix = "";
 
 var Meta = function Meta() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -57,53 +58,53 @@ var Meta = function Meta() {
     content: "width=device-width, initial-scale=1, shrink-to-fit=no",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 7
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "apple-touch-icon",
     sizes: "76x76",
-    href: "/static/meta/apple-touch-icon.png",
+    href: "".concat(linkPrefix, "static/meta/apple-touch-icon.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "/static/meta/favicon-32x32.png",
+    href: "".concat(linkPrefix, "static/meta/favicon-32x32.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "/static/meta/favicon-16x16.png",
+    href: "".concat(linkPrefix, "static/meta/favicon-16x16.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "manifest",
-    href: "/static/meta/site.webmanifest",
+    href: "".concat(linkPrefix, "static/meta/site.webmanifest"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 30
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "mask-icon",
-    href: "/static/meta/safari-pinned-tab.svg",
+    href: "".concat(linkPrefix, "static/meta/safari-pinned-tab.svg"),
     color: "#4cba70",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -111,7 +112,7 @@ var Meta = function Meta() {
     content: "#ffffff",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -119,7 +120,7 @@ var Meta = function Meta() {
     content: "#ffffff",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -128,7 +129,7 @@ var Meta = function Meta() {
     content: "Beautiful, Zero Configuration, Toast Messages | CogoToast",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -137,7 +138,7 @@ var Meta = function Meta() {
     content: "Open Source, Plug and Play - Toast Messages System for React. ~ 3.5K Gzipped (All Inclusive of Icons, Styles, and Code) No configuration required.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -146,16 +147,16 @@ var Meta = function Meta() {
     content: "react,toast,react-toast,toast-react,toastr,toast messages,messages,notifications,react notifications,component,components,react component,react components,ui,cogoport,open source",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     key: "image",
     property: "image",
-    content: "/static/meta/safari-pinned-tab.svg",
+    content: "".concat(linkPrefix, "static/meta/safari-pinned-tab.svg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -164,7 +165,7 @@ var Meta = function Meta() {
     content: "Cogoport",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 56
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -173,7 +174,7 @@ var Meta = function Meta() {
     content: "Beautiful, Zero Configuration, Toast Messages | CogoToast",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 58
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -182,7 +183,7 @@ var Meta = function Meta() {
     content: "Open Source, Plug and Play - Toast Messages System for React. ~ 3.5K Gzipped (All Inclusive of Icons, Styles, and Code) No configuration required.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -191,16 +192,16 @@ var Meta = function Meta() {
     content: "https://cogoport.github.io/cogo-toast",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 70
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     key: "og:image",
     property: "og:image",
-    content: "/static/meta/safari-pinned-tab.svg",
+    content: "".concat(linkPrefix, "static/meta/safari-pinned-tab.svg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 71
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -209,7 +210,7 @@ var Meta = function Meta() {
     content: "https://cogoport.github.io/cogo-toast",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 77
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -218,16 +219,16 @@ var Meta = function Meta() {
     content: "summary_large_image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 78
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     key: "twitter:image",
     name: "twitter:image",
-    content: "/static/meta/safari-pinned-tab.svg",
+    content: "".concat(linkPrefix, "static/meta/safari-pinned-tab.svg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 80
     },
     __self: this
   }));
