@@ -79,6 +79,12 @@ Here's a list of all the available options, to customize the toast to your needs
 |    bar    |           Object <br /> `{ size: '2px', style: 'solid/dashed/dotted', color: '#hex' }`           |                      Based on the Type                       |
 |  onClick  |                                             Function                                             |                            `null`                            |
 
+#### Custom Styling
+
+You can provide your own custom styling by extending the `ct-toast` class in your css styles.
+
+For all classnames, refer to [/src/styles.css](/src/styles.css)
+
 ### Only ~ 3.5K Gzipped
 
 The package contains one single minified build file, and its all inclusive!
