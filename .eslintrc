@@ -17,6 +17,7 @@
 		"react/jsx-indent-props": ["error", "tab"],
 		"react/no-array-index-key": "warn",
 		"react/jsx-one-expression-per-line": "off",
+		"react/jsx-filename-extension": "off",
 		"jsx-a11y/media-has-caption": "off",
 		"jsx-a11y/anchor-is-valid": "off"
 	}
