@@ -109,7 +109,3 @@ Contributions of any kind welcome!
 ### License
 
 `MIT`
-
-### Built With
-
-- [React](https://reactjs.org/)
