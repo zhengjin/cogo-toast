@@ -98,8 +98,6 @@ The SVG Icons and the Styles are packed along built into the Code.
 
 ## Contributors
 
-Thanks goes to these people ([emoji key][emojis]):
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 | [<img src="https://avatars2.githubusercontent.com/u/36692003?s=460&v=4" width="100px;" alt="Anmol Mahatpurkar"/><br /><sub><b>Anmol Mahatpurkar</b></sub>](https://github.com/anmolmahatpurkar)<br />[💻](https://github.com/Cogoport/cogo-toast/commits?author=anmolmahatpurkar "Code") [🎨](https://cogoport.github.io/cogo-toast "Design") [📖](https://cogoport.github.io/cogo-toast "Documentation") |
