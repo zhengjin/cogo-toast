@@ -95,7 +95,7 @@ For all classnames, refer to [/src/styles.css](/src/styles.css)
 
 The package contains one single minified build file, and its all inclusive!
 
-The SVG Icons and the Styles are packed along built into the Code.
+The SVG Icons and the Styles are packed along built into the Code
 
 ### License
 
