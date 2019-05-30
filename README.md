@@ -3,7 +3,6 @@
 <p align="center" style="font-size: 1.2rem;">Beautiful, Zero Configuration, Toast Messages</p>
 <p align="center"><a href="https://cogoport.github.io/cogo-toast/">https://cogoport.github.io/cogo-toast/</a></p>
 
-
 [![Dependencies](https://img.shields.io/david/Cogoport/cogo-toast.svg)](https://david-dm.org/Cogoport/cogo-toast.svg)
 [![DevDependencies](https://img.shields.io/david/dev/Cogoport/cogo-toast.svg)](https://david-dm.org/Cogoport/cogo-toast?type=dev)
 [![npm package](https://img.shields.io/npm/v/cogo-toast/latest.svg)](https://www.npmjs.com/package/cogo-toast)
@@ -103,6 +102,7 @@ Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/36692003?s=460&v=4" width="100px;" alt="Anmol Mahatpurkar"/><br /><sub><b>Anmol Mahatpurkar</b></sub>](https://github.com/anmolmahatpurkar)<br />[💻](https://github.com/Cogoport/cogo-toast/commits?author=anmolmahatpurkar "Code") [🎨](https://cogoport.github.io/cogo-toast "Design") [📖](https://cogoport.github.io/cogo-toast "Documentation") |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
