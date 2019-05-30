@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cogoport.github.io/cogo-toast/static/meta/android-chrome-96x96.png" alt="cogo-toast" title="cogo-toast" width="120"><p>
 <h1 align="center">Cogo Toast</h1>
-<p align="center" style="font-size: 1.2rem;">Beautiful, Zero Configuration, Toast Messages</p>
+<p align="center" style="font-size: 1.2rem;">Beautiful, Zero Configuration, Toast Messages for React</p>
 <p align="center"><a href="https://cogoport.github.io/cogo-toast/">https://cogoport.github.io/cogo-toast/</a></p>
 
 [![Dependencies](https://img.shields.io/david/Cogoport/cogo-toast.svg)](https://david-dm.org/Cogoport/cogo-toast.svg)
@@ -104,7 +104,6 @@ The SVG Icons and the Styles are packed along built into the Code.
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors][all-contributors] specification.
 Contributions of any kind welcome!
 
 ### License
