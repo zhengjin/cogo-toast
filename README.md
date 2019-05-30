@@ -97,6 +97,18 @@ The package contains one single minified build file, and its all inclusive!
 
 The SVG Icons and the Styles are packed along built into the Code.
 
+## Contributors
+
+Thanks goes to these people ([emoji key][emojis]):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors][all-contributors] specification.
+Contributions of any kind welcome!
+
 ### License
 
 `MIT`
