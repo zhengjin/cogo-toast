@@ -6,7 +6,7 @@ import './styles.css';
 
 const colors = {
 	success: '#6EC05F',
-	info: '#1271EC',
+	info: '#3f85a8',
 	warn: '#FED953',
 	error: '#D60A2E',
 	loading: '#0088ff',
